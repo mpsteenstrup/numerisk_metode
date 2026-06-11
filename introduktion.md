@@ -81,7 +81,7 @@ Hvilket svare til at en bold slippes 10 meter oppe og accelereres mod jorden. K�
 Jeg gennemgår koden i denne video: [video](https://youtu.be/iz6A1Nj_tE0)
 
 
-** Prøv selv **
+**Prøv selv**
 
 Den bedste måde at få forståelse for programmet er at lave om i det. Prøv jer frem, men gør kun én ting af gangen, så kan I altid komme tilbage. Hver gang I laver noget om skal I prøve at baskrive hvad der er forandret i simulaitonen.
 * Lav om på startbetingelserne, så hastigheden ikke er lig nul v = .
@@ -117,20 +117,26 @@ Her skal I fokusere på graferne og data-output.
 Vi vil nu prøve at simulere det skrå kast med luftmodstand. Det er nu at simulering for alvor bliver lettere end at beregne det analytisk. I kan jo prøve at løse differentialligningen hvis I vil, men I skal først prøve det her.
 
 Fysikken bag luftmodstand er ikke så svær. Luftmodstanden er proportional med hastigheden i anden og vender altid væk fra bevægelsesretningen,
+
 $$
 F_{luftmodstand} = -k·v^2.
 $$
+
 Sammen med tyngdekraften bliver den samlede kraft,
 
 op
+
 $$
 F = F_t + F_{luftmodstand} = -g·m - m·v^2
 $$
+
 ned
+
 $$
 F = F_t + F_{luftmodstand} = -g·m + m·v^2
 $$
-For at få det fortegnet rigtigt definerer vi luftmodstanden som $\( -k·v^2 \)$ som ``` -k·bold.v*bold.v.mag```. ```bold.v.mag``` giver den numeriske værdi af vektoren og ```bold.v``` giver skifter fortegn ved ændret regning.
+
+For at få det fortegnet rigtigt definerer vi luftmodstanden som $ -k\cdot v^2 $ som ``` -k·bold.v*bold.v.mag```. ```bold.v.mag``` giver den numeriske værdi af vektoren og ```bold.v``` giver skifter fortegn ved ændret regning.
 
 
 [https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion2](https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion2)
