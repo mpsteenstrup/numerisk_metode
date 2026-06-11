@@ -7,7 +7,7 @@
 # Eulers metode
 Eulers metode bruges til at lave en tilnærmet løsning til en differentialligning. Differentialligningen skrives som $$y'=g(x,y)$$ og kan både indeholde x og y som variabel.
 
-Man bruger tangenten som bedste approksimation til funktionen i punktet $\( P(x_0, y_0) \)$ til at finde de næste punkter $\( (x_1,y_1),(x_2,y_2),(x_3,y_3),... \)$
+Man bruger tangenten som bedste approksimation til funktionen i punktet $$P(x_0, y_0)$$ til at finde de næste punkter $$(x_1,y_1),(x_2,y_2),(x_3,y_3),...$$
 
 Tangentens ligning er
 $$ y = f'(x_0)·(x-x_0)+f(x_0) $$ hvilket kan oversættes til 
@@ -22,7 +22,7 @@ Hvilket derefter kan bruge til at finde de efterfølgende
 Differentialligningen $$y' = x+y, y(0)=0$$ kan løses analytisk til $$y(x) = -x-1+e^{x}$$
 I nedenstående vises en simulering hvor Eulers metode er brugt til at finde en tilnærmelse
 
-
+**program:**
 [https://glowscript.org/#/user/mps/folder/numeriskmetode/program/em1](https://glowscript.org/#/user/mps/folder/numeriskmetode/program/em1)
 
 * Lav om i skridtlængden h og hvad der sker.
@@ -34,7 +34,7 @@ I nedenstående vises en simulering hvor Eulers metode er brugt til at finde en 
 Differentialligningen $$y' = sin(x)·y, y(1)=1$$ hvilket også har en analytisk løsning.
 I nedenstående vises en simulering hvor Eulers metode er brugt til at finde en tilnærmelse
 
-
+**program:**
 [https://glowscript.org/#/user/mps/folder/numeriskmetode/program/em2](https://glowscript.org/#/user/mps/folder/numeriskmetode/program/em2)
 
 * Vurder igen hvor lille skridtstørrelsen skal være for at simuleringe er god.
@@ -45,7 +45,7 @@ Denne differentialligning har ikke nogen analysitk løsning.
 $$y' = sin(x) + 2·sin(y)$$.
 Vi kan heldigvis stadigt løse den numerisk.
 
-
+**program:**
 [https://glowscript.org/#/user/mps/folder/numeriskmetode/program/em3](https://glowscript.org/#/user/mps/folder/numeriskmetode/program/em3)
 
 * Forlæng simuleringen ved at ændre betingelsen i linje 16.

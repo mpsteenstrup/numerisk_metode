@@ -21,14 +21,18 @@ Vi bruger online siden trinket.io. Her kan man dele med elever og eleverne kan s
 
 ### MATEMATIKKEN, Eulers metode
 
-Vi vil gerne gå fra krafter til bevægelse. Det er altså en øvelse i at gå fra
+Vi vil gerne gå fra kræfter til bevægelse. Det er altså en øvelse i at gå fra
+
 $$
 a \rightarrow v \rightarrow x.  
 $$
+
 Det svare jo til
+
 $$
 \frac{d^2 x}{dt^2} \rightarrow \frac{d x}{dt} \rightarrow x.
 $$
+
 Vi vil fokuserer på det enkelt step $\( \frac{d x}{dt} \rightarrow x \)$.
 
 
@@ -45,9 +49,6 @@ hvilket giver
 $$
 f(t) = f(t_0) + f'(t)\Delta t.
 $$
-
-`
-$x^2 + y^2 = z^2$`
 
 Her har jeg droppet, $\(t\rightarrow t_0\)$, hvilket svarer til $\(\Delta t \rightarrow 0 \)$. En af opgaverne er netop at lave $\( \Delta t\)$ tilstrækkeligt lille når systemet skal simuleres.
 
