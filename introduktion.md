@@ -7,8 +7,6 @@ Fysikkens love indeholder ofte kræfter og acceleration og kan derfor beskrives 
 * [Bisektion og Newton-Raphson.](https://mpsteenstrup.github.io/numerisk_metode/bisektion_newton_raphson)
 * [Runge-Kutta.](https://mpsteenstrup.github.io/numerisk_metode/runge_kutta)
 
-
-
 ### FORDELE
 
 * Vi kan løse problemer som ikke er analytisk løsbare.
@@ -56,11 +54,15 @@ $$
 Her har jeg droppet, $t\rightarrow t_0$, hvilket svarer til $\Delta t \rightarrow 0$. En af opgaverne er netop at lave $\Delta t$ tilstrækkeligt lille når systemet skal simuleres.
 
 Vi kan altså hvis vi kender startpositionen $x_0$ og den afledte $v$ finde positionen efter t sekunder ved at beregne
-\begin{align}
+
+$$
+\begin{aligned}
 x1&=x0+v0\Delta t, \\\
 x2&=x1+v1\Delta t, \\\
 x3&=x2+v2\Delta t, ...
-\end{align}
+\end{aligned}
+$$
+
 Denne metode kaldes Eulers metode til løsning af differentialligninger. Der findes andre og mere avancerede, men denne er fin til en start.
 
 I programmering er sproget lidt anderledes, her kan man godt skrive,
