@@ -83,6 +83,7 @@ Vi starter med det lodrette kast uden luftmodstand. Fysikken er kendt som bevæg
 
 Hvilket svare til at en bold slippes 10 meter oppe og accelereres mod jorden. Kør simuleringen ved at trykke på 'play' knappen
 
+**kode:**
 [https://glowscript.org/#/user/mps/folder/nummeriskmetode/program/introduktion1](https://glowscript.org/#/user/mps/folder/nummeriskmetode/program/introduktion1)
 
 Jeg gennemgår koden i denne video: [video](https://youtu.be/iz6A1Nj_tE0)
@@ -108,7 +109,7 @@ Udover at der nu bliver tegnet grafer så er boldens egenskaber nu skrevet som v
 
 Kør koden.
 
-**koden:**
+**kode:**
 [https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion1](https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion1)
 
 Her skal I fokusere på graferne og data-output.
@@ -146,7 +147,7 @@ $$
 
 For at få det fortegnet rigtigt definerer vi luftmodstanden som $-k\cdot v^2$ som ``` -k·bold.v*bold.v.mag```. ```bold.v.mag``` giver den numeriske værdi af vektoren og ```bold.v``` giver skifter fortegn ved ændret regning.
 
-
+**kode:**
 [https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion2](https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion2)
 
 * Eksperimenter med ændring af vinklen, er $45^{\circ}$ stadigt der hvor den kommer længst?
