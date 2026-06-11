@@ -57,8 +57,8 @@ Vi kan altså hvis vi kender startpositionen $x_0$ og den afledte $v$ finde posi
 
 $$
 \begin{aligned}
-x1&=x0+v0\Delta t, \\\
-x2&=x1+v1\Delta t, \\\
+x1&=x0+v0\Delta t, \\
+x2&=x1+v1\Delta t, \\
 x3&=x2+v2\Delta t, ...
 \end{aligned}
 $$
