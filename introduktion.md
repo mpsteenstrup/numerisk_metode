@@ -33,7 +33,7 @@ $$
 \frac{d^2 x}{dt^2} \rightarrow \frac{d x}{dt} \rightarrow x.
 $$
 
-Vi vil fokuserer på det enkelt step $ \frac{d x}{dt} \rightarrow x $.
+Vi vil fokuserer på det enkelt step $\frac{d x}{dt} \rightarrow x$.
 
 Tænk tilbage til hvordan I definerede en differentialkvotient,
 
@@ -53,9 +53,9 @@ $$
 f(t) = f(t_0) + f'(t)\Delta t.
 $$
 
-Her har jeg droppet, $t\rightarrow t_0$, hvilket svarer til $\Delta t \rightarrow 0 $. En af opgaverne er netop at lave $ \Delta t$ tilstrækkeligt lille når systemet skal simuleres.
+Her har jeg droppet, $t\rightarrow t_0$, hvilket svarer til $\Delta t \rightarrow 0$. En af opgaverne er netop at lave $\Delta t$ tilstrækkeligt lille når systemet skal simuleres.
 
-Vi kan altså hvis vi kender startpositionen $x_0$ og den afledte $ v $ finde positionen efter t sekunder ved at beregne
+Vi kan altså hvis vi kender startpositionen $x_0$ og den afledte $v$ finde positionen efter t sekunder ved at beregne
 \begin{align}
 x1&=x0+v0\Delta t, \\\
 x2&=x1+v1\Delta t, \\\
@@ -70,8 +70,10 @@ $x = x+1$ , hvilket betyder at x variablen skal opdateres med den oprindelige x 
 
 Python bruger tabulator indrykning når den laver løkker. Det er ofte her det går galt når man kopierer kode fra andre steder. Løsningen er at slette indrykkene og lave dem igen, med tabulator knappen.
 
-** Det simpleste eksempel **
-Vi starter med det lodrette kast uden luftmodstand. Fysikken er kendt som bevægelse med konstant acceleration. Startbetingerlserne er
+**Det simpleste eksempel**
+
+Vi starter med det lodrette kast uden luftmodstand. Fysikken er kendt som bevægelse med konstant acceleration. Startbetingelser er
+
 * y = 10 m
 * v = 0 m/s
 * g = -9.82 m/s/s
@@ -102,12 +104,13 @@ Hvis vi skal kunne arbejde kvantitativt med simuleringen skal vi have grafer og 
 
 Udover at der nu bliver tegnet grafer så er boldens egenskaber nu skrevet som vektorer. GlowScript har det som standard når det laver objekter og det meste materiale er udviklet den gang alle 1.g elever skulle have om vektorer. Det giver en del større fleksibilitet, men gør også koden lidt mere uoverskuelig.
 
-Kør koden i full screen ved at trykke på de tre streger i venstre hjørne.
+Kør koden.
 
-
+**koden:**
 [https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion1](https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion1)
 
 Her skal I fokusere på graferne og data-output.
+
 * Beskriv boldens bevægelse ved at se på simuleringen.
 * Beskriv boldens bevægelse ved at se på grafen.
 * aflæs højden af kastet på grafen.
@@ -139,10 +142,10 @@ $$
 F = F_t + F_{luftmodstand} = -g·m + m·v^2
 $$
 
-For at få det fortegnet rigtigt definerer vi luftmodstanden som $ -k\cdot v^2 $ som ``` -k·bold.v*bold.v.mag```. ```bold.v.mag``` giver den numeriske værdi af vektoren og ```bold.v``` giver skifter fortegn ved ændret regning.
+For at få det fortegnet rigtigt definerer vi luftmodstanden som $-k\cdot v^2$ som ``` -k·bold.v*bold.v.mag```. ```bold.v.mag``` giver den numeriske værdi af vektoren og ```bold.v``` giver skifter fortegn ved ændret regning.
 
 
 [https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion2](https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion2)
 
-* Eksperimenter med ændring af vinklen, er $ 45^{\circ} $ stadigt der hvor den kommer længst?
+* Eksperimenter med ændring af vinklen, er $45^{\circ}$ stadigt der hvor den kommer længst?
 * Hvis det forventede ned, hvorfor og hvornår kommer den længst?
