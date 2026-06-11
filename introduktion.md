@@ -77,9 +77,7 @@ Hvilket svare til at en bold slippes 10 meter oppe og accelereres mod jorden. K�
 
 [https://glowscript.org/#/user/mps/folder/nummeriskmetode/program/introduktion1](https://glowscript.org/#/user/mps/folder/nummeriskmetode/program/introduktion1)
 
-Jeg gennemgår koden i denne video.
-
-![video](https://youtu.be/iz6A1Nj_tE0)
+Jeg gennemgår koden i denne video: [video](https://youtu.be/iz6A1Nj_tE0)
 
 
 ** Prøv selv **
