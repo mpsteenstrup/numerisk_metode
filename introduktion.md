@@ -2,10 +2,10 @@
 Fysikkens love indeholder ofte kræfter og acceleration og kan derfor beskrives som 2. ordens differentialligninger. Disse er ofte svære eller umulige at løse analytisk, d.v.s. finde ligningen, men den kan ofte klares numerisk. I denne introduktion prøver vi at arbejde os frem til at kunne gøre det.
 
 ### Indholdsfortegnelse
-* [Introduktion.]()
-* [Eulers metode.]()
-* [Bisektion og Newton-Raphson.]()
-* [Runge-Kutta.]()
+* [Introduktion.](https://mpsteenstrup.github.io/numerisk_metode/introduktion)
+* [Eulers metode.](https://mpsteenstrup.github.io/numerisk_metode/eulers_metode)
+* [Bisektion og Newton-Raphson.](https://mpsteenstrup.github.io/numerisk_metode/bisektion_newton_raphson)
+* [Runge-Kutta.](https://mpsteenstrup.github.io/numerisk_metode/runge_kutta)
 
 
 

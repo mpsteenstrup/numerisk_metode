@@ -1,5 +1,10 @@
-### Bisektion
+### Indholdsfortegnelse
+* [Introduktion.](https://mpsteenstrup.github.io/numerisk_metode/introduktion)
+* [Eulers metode.](https://mpsteenstrup.github.io/numerisk_metode/eulers_metode)
+* [Bisektion og Newton-Raphson.](https://mpsteenstrup.github.io/numerisk_metode/bisektion_newton_raphson)
+* [Runge-Kutta.](https://mpsteenstrup.github.io/numerisk_metode/runge_kutta)
 
+# Bisektion
 
 [https://glowscript.org/#/user/mps/folder/numeriskmetode/program/bi](https://glowscript.org/#/user/mps/folder/numeriskmetode/program/bi)
 

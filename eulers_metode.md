@@ -1,3 +1,9 @@
+### Indholdsfortegnelse
+* [Introduktion.](https://mpsteenstrup.github.io/numerisk_metode/introduktion)
+* [Eulers metode.](https://mpsteenstrup.github.io/numerisk_metode/eulers_metode)
+* [Bisektion og Newton-Raphson.](https://mpsteenstrup.github.io/numerisk_metode/bisektion_newton_raphson)
+* [Runge-Kutta.](https://mpsteenstrup.github.io/numerisk_metode/runge_kutta)
+
 # Eulers metode
 Eulers metode bruges til at lave en tilnærmet løsning til en differentialligning. Differentialligningen skrives som $$y'=g(x,y)$$ og kan både indeholde x og y som variabel.
 
