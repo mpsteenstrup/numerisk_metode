@@ -33,26 +33,29 @@ $$
 \frac{d^2 x}{dt^2} \rightarrow \frac{d x}{dt} \rightarrow x.
 $$
 
-Vi vil fokuserer på det enkelt step $\( \frac{d x}{dt} \rightarrow x \)$.
-
-
+Vi vil fokuserer på det enkelt step $ \frac{d x}{dt} \rightarrow x $.
 
 Tænk tilbage til hvordan I definerede en differentialkvotient,
+
 $$
 \frac{f(t)-f(t_0)}{t-t_0}=f'(t), \text{ for }  t \rightarrow t_0
 $$ 
-Nu ganger jeg med $\( \Delta t = t-t_0 \)$, hvilket giver
+
+Nu ganger jeg med $ \Delta t = t-t_0 $, hvilket giver
+
 $$
 f(t)-f(t_0) = f'(t)\Delta t
 $$
+
 hvilket giver
+
 $$
 f(t) = f(t_0) + f'(t)\Delta t.
 $$
 
-Her har jeg droppet, $\(t\rightarrow t_0\)$, hvilket svarer til $\(\Delta t \rightarrow 0 \)$. En af opgaverne er netop at lave $\( \Delta t\)$ tilstrækkeligt lille når systemet skal simuleres.
+Her har jeg droppet, $t\rightarrow t_0$, hvilket svarer til $\Delta t \rightarrow 0 $. En af opgaverne er netop at lave $ \Delta t$ tilstrækkeligt lille når systemet skal simuleres.
 
-Vi kan altså hvis vi kender startpositionen $\(x_0\)$ og den afledte $\( v \)$ finde positionen efter t sekunder ved at beregne
+Vi kan altså hvis vi kender startpositionen $x_0$ og den afledte $ v $ finde positionen efter t sekunder ved at beregne
 \begin{align}
 x1&=x0+v0\Delta t, \\\
 x2&=x1+v1\Delta t, \\\
@@ -61,7 +64,7 @@ x3&=x2+v2\Delta t, ...
 Denne metode kaldes Eulers metode til løsning af differentialligninger. Der findes andre og mere avancerede, men denne er fin til en start.
 
 I programmering er sproget lidt anderledes, her kan man godt skrive,
-$\(x = x+1\)$ , hvilket betyder at x variablen skal opdateres med den oprindelige x værdi plus 1.
+$x = x+1$ , hvilket betyder at x variablen skal opdateres med den oprindelige x værdi plus 1.
 
 ### Simulering  med Python
 
@@ -88,7 +91,7 @@ Den bedste måde at få forståelse for programmet er at lave om i det. Prøv je
 * Lav om på massen af bolden ved at ændre på m.
 * Lav om på tyngdeaccelerationen så simuleringen er helt på månen, g=1.6.
 
-Systemet udvikler sig efter newtons love, men vi kan vælge at studere dem udvikle sig langsommere. I linje 26 angives rate(100), hvilket betyder at løkken kører 100 gange i sekundet. Dette giver den rigtige tid da vi har sat tidsskridtet til $\(dt=0.01\)$. Hvis man vil have den rigtige udvikling skal man sætte sin rate til $\(1/dt)\$. Hvis man skal kunne holde øje med grafer og bolde der flyver er det ofte en god ide at skrue tempoet ned.
+Systemet udvikler sig efter newtons love, men vi kan vælge at studere dem udvikle sig langsommere. I linje 26 angives rate(100), hvilket betyder at løkken kører 100 gange i sekundet. Dette giver den rigtige tid da vi har sat tidsskridtet til $dt=0.01$. Hvis man vil have den rigtige udvikling skal man sætte sin rate til $1/dt)\$. Hvis man skal kunne holde øje med grafer og bolde der flyver er det ofte en god ide at skrue tempoet ned.
 
 * Prøv at lav om i rate så simuleringen kører langsommere.
 
@@ -141,5 +144,5 @@ For at få det fortegnet rigtigt definerer vi luftmodstanden som $ -k\cdot v^2 $
 
 [https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion2](https://glowscript.org/#/user/mps/folder/numeriskmetode/program/introduktion2)
 
-* Eksperimenter med ændring af vinklen, er $\( 45^{\circ} \)$ stadigt der hvor den kommer længst?
+* Eksperimenter med ændring af vinklen, er $ 45^{\circ} $ stadigt der hvor den kommer længst?
 * Hvis det forventede ned, hvorfor og hvornår kommer den længst?
