@@ -16,7 +16,8 @@ Figuren nedenfor viser 4.ordens Runge-kutta.
 * $\( k_4 \)$ kommer ved at bruge hældningen fra $\(k_3\)$ fra $\((x_0,y_0)\)$.
 * Den endelige y-værdi er $\(y_1 = y_0 + \frac{k_1}{6}+\frac{k_2}{3}+\frac{k_3}{3}+\frac{k_4}{6}\)$
 
-![Runge-Kutta_slopes.svg](/api/files/657783eb812ec7113b3ef4a4/runge-kutta_slopes.svg "Runge-Kutta_slopes.svg")# Runge-kutta
+![Runge-Kutta](billeder/rk.png)
+
 
 ### øvelse
 * Forklar ud fra figuren hvordan $\(k_1,k_2,k_3\)$ alle vil given en for lille hældning ved en konveks funktion, mens $\(k_4\)$ giver en for stor en.
